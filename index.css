@@ -44,7 +44,7 @@
 
 .banner {
     /*size: 1920px 1080px;*/
-    background-image: url("imagenes/banner1.jpg");
+    background-image: url("/imagenes/banner1.jpg");
     background-size: cover;
     background-position: center;
     /*efecto parrallax*/
