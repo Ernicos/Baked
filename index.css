@@ -1,0 +1,115 @@
+.container-fluid1 {
+    padding-top: 210px;
+    padding-bottom: 200px;
+}
+
+.container-fluid2 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.container-fluid3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-fluid4 {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.container-fluid5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-fluid6 {
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.titulo1 {
+    font-weight: bolder;
+}
+
+.titulo2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.titulo3 {
+    font-size: 50px;
+    color: #000;
+}
+
+.banner {
+    /*size: 1920px 1080px;*/
+    background-image: url("../imagenes/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+    /*efecto parrallax*/
+    background-attachment: fixed;
+    /*sombra de profundida para el banner*/
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    /*Carga de la Animacion a*/
+    animation: a 6s ease infinite alternate;
+}
+
+.banner2 {
+    background-image: url("../imagenes/banner2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    animation: d 6s ease-in infinite alternate;
+}
+
+.fondo2 {
+    background-color: #e5d96b;
+}
+
+
+/*ANIMACIONES KEYFRAMES*/
+
+
+/*MOVIMIENTO DE ARRIBA A ABAJO*/
+
+@keyframes a {
+    0% {
+        background-position: 0 -1100px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+/*MOVIMIENTO DE IZQUIERA A DERECHA*/
+
+@keyframes b {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -1100px 0;
+    }
+}
+
+@keyframes c {
+    0% {
+        opacity: 0.5;
+        background-position: -2000px 0;
+    }
+    100% {
+        opacity: 1;
+        background-position: 0 0;
+    }
+}
+
+@keyframes d {
+    0% {
+        background-position: 0 -300px;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
