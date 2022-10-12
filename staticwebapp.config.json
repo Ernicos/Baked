@@ -1,9 +1,4 @@
 {
-  "navigationFallback": {
-    "rewrite": "index.html",
-    "exclude": ["/assets/*.{png,jpg,gif,svg}", "*.css"]
-  },
-
   "networking": {
     "allowedIpRanges": [ "10.1.0.0/16" ]
   }
